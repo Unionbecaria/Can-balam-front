@@ -6,7 +6,7 @@ import roofWebp from '@/assets/roof.webp'
 const elements = [
     {
         title: 'Hall',
-        description: 'Nuestro patio es ese lugar donde todo pasa sin que te des cuenta. Un café en la mañana, una charla con alguien que acabas de conocer.  Aquí se cruzan historias, risas y a veces hasta planes para irse juntos a la playa. Es el corazón de Can Balam.',
+        description: `Nuestro patio es ese lugar donde todo pasa sin que te des cuenta. Un café en la mañana, una charla con alguien que acabas de conocer. Aquí se cruzan historias, risas y a veces hasta planes para irse juntos a la playa. Es el corazón de Can Balam.`,
         image: {
             jpg: installationsOne,
             webp: installationsOneWeb,
@@ -14,7 +14,7 @@ const elements = [
     },
     {
         title: 'Cocina',
-        description: ' Como amantes de la comida, queríamos más que una cocina: queríamos un lugar para compartir. Así nació este espacio, hecho por nosotros, donde puedes preparar lo que se te antoje, sentarte a comer con gente que no conocías hace una hora y acabar compartiendo risas, recetas o hasta planes de viaje. Aquí, cocinar es solo la excusa.',
+        description: `Como amantes de la comida, queríamos más que una cocina: queríamos un lugar para compartir. Así nació este espacio, hecho por nosotros, donde puedes preparar lo que se te antoje, sentarte a comer con gente que no conocías hace una hora y acabar compartiendo risas, recetas o hasta planes de viaje. Aquí, cocinar es solo la excusa.`,
         image: {
             jpg: installationsOne,
             webp: installationsOneWeb,

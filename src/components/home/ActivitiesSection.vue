@@ -7,6 +7,15 @@ import yateJpg from '@/assets/yate.jpg'
 import yateWebp from '@/assets/yate.webp'
 import surfImageJpg from '@/assets/surfImage.jpg';
 import surfImageWebp from '@/assets/surfImage.webp';
+import liberacionTortugasJpg from '@/assets/liberacionTortugas.jpg';
+import liberacionTortugasWebp from '@/assets/liberacionTortugas.webp';
+import bioluminiscenciaJpg from '@/assets/bioluminiscencia.jpg';
+import bioluminiscenciaWebp from '@/assets/bioluminiscencia.webp';
+import ecoTourJpg from '@/assets/ecoTour.jpg';
+import ecoTourWebp from '@/assets/ecoTour.webp';
+import cabalgataJpg from '@/assets/cabalgata.jpg';
+import cabalgataWebp from '@/assets/cabalgata.webp';
+
 const content = [
     {
         title: 'Festival de paella',
@@ -40,6 +49,38 @@ const content = [
             webp: surfImageWebp,
         }
     },
+    {
+        title:" Liberación de Tortugas",
+        description: "Visitarás un campamento tortuguero a cargo de biólogos y voluntarios que se aseguran de preservar la vida de las crías recién nacidas. Tú puedes contribuir a esta noble labor. Además de disfrutar de un hermoso atardecer y acompañar a una tortuga en su camino a casa.",
+        image: {
+            png: liberacionTortugasJpg,
+            webp: liberacionTortugasWebp
+        }
+    },
+    {
+        title:" Bioluminiscencia",
+        description: " Después del atardecer, sube a una lancha y adéntrate en la laguna para presenciar un espectáculo natural único: millones de partículas de plancton iluminando el agua con cada movimiento. Puedes admirarlo desde la embarcación o nadar entre destellos de luz en plena noche.",
+        image: {
+            png: bioluminiscenciaJpg,
+            webp: bioluminiscenciaWebp
+        }
+    },
+    {
+        title:"Eco Tour",
+        description:"Recorre Ventanilla y su zona ecológica para observar cocodrilos, iguanas y aves en libertad. Descubre Mazunte y su fábrica de cosméticos naturales, relájate en Zipolite y disfruta de Puerto Ángel con comida local y mezcal. Termina el día en Punta Cometa con una puesta de sol inolvidable.",
+        image: {
+            png: ecoTourJpg,
+            webp: ecoTourWebp
+        }
+    },
+    {
+        title:" Cabalgata al Atardecer",
+        description:" Disfruta de una cabalgata al atardecer por la playa. Recorre la orilla con vistas al mar, siente la brisa y aprovecha para tomar fotos mientras el sol se oculta en el horizonte.",
+        image: {
+            png: cabalgataJpg,
+            webp: cabalgataWebp
+        }
+    }
 ]
 </script>
 <template>
