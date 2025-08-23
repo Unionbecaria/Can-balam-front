@@ -18,7 +18,7 @@ import cabalgataWebp from '@/assets/cabalgata.webp';
 
 const content = [
     {
-        title: 'Festival de paella',
+        title: 'Evento de paellas',
         description: 'Nuestro evento de paellas es la joya de la casa. Fusionamos sabores de México y España en combinaciones que no vas a probar en ningún otro lugar. Cada edición es distinta, pero siempre hay lo mismo: buena comida, buena vibra y gente compartiendo mesa como si se conocieran de toda la vida. No es solo una comida, es una experiencia. Y sí, es nuestro best seller por una razón',
         image: {
             png: paellaJpg,
@@ -43,7 +43,7 @@ const content = [
     },
     {
         title: 'Clases de Surf',
-        description: 'Puerto Escondido es el paraíso del surf, y no importa si es tu primera vez o ya sabes agarrar olas: aquí se viene a disfrutar. Tenemos clases con instructores locales que te llevan al spot ideal según tu nivel. Sol, mar y tabla: el combo perfecto.',
+        description: 'Puerto Escondido es el paraíso del surf, y no importa si es tu primera vez o ya sabes agarrar olas: aquí se viene a disfrutar.',
         image: {
             png: surfImageJpg,
             webp: surfImageWebp,

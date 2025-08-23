@@ -6,7 +6,7 @@ import WhaLink from '@/components/utils/WhaLink.vue';
         <div class="container">
             <h2>Can Balam</h2>
             <p>No vengas a descansar. Ven a <span>encontrarte</span></p>
-            <WhaLink :link="{ 'text': '¡Contáctanos!', 'url': '#' }" />
+            <WhaLink :link="{ 'text': '¡Contáctanos!', 'url': 'https://api.whatsapp.com/send?phone=34638379254&text=Hola!%20He%20visto%20el%20sitio%20web%20de%20tu%20hotel%20y%20me%20gustar%C3%ADa%20tener%20m%C3%A1s%20informaci%C3%B3n%20%F0%9F%98%81' }" />
         </div>
     </section>
 </template>

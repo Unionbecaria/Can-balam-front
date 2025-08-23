@@ -85,7 +85,7 @@ const closeModal = () => {
                     <p v-for="(description, index) in room.description">{{ description }}</p>
                 </div>
 
-                <WhaLink :link="{ 'text': room.linkText, 'url': room.link }" />
+                <WhaLink :link="{ 'text': room.linkText, 'url': 'https://api.whatsapp.com/send?phone=34638379254&text=Hola!%20Me%20interesa%20una%20habitaci%C3%B3n%20%F0%9F%98%81' }" />
 
             </article>
         </div>
