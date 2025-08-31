@@ -43,7 +43,7 @@ const content = [
     },
     {
         title: 'Clases de Surf',
-        description: 'Puerto Escondido es el paraíso del surf, y no importa si es tu primera vez o ya sabes agarrar olas: aquí se viene a disfrutar.',
+        description: 'Puerto Escondido es el paraíso del surf, y no importa si es tu primera vez o ya sabes agarrar olas: aquí se viene a disfrutar. Sol, mar y tabla: el combo perfecto.',
         image: {
             png: surfImageJpg,
             webp: surfImageWebp,
