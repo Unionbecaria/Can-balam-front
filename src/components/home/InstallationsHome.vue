@@ -1,8 +1,10 @@
 <script setup>
 import installationsOne from '@/assets/instalations.JPG';
 import installationsOneWeb from '@/assets/instalations.webp';
-import roofJpg from '@/assets/roof.jpg'
-import roofWebp from '@/assets/roof.webp'
+import kitchen from "@/assets/cocina.jpg";
+import kitchenWebp from "@/assets/cocina.webp";
+import roofJpg from '@/assets/roof.jpg';
+import roofWebp from '@/assets/roof.webp';
 const elements = [
     {
         title: 'Hall',
@@ -16,8 +18,8 @@ const elements = [
         title: 'Cocina',
         description: `Como amantes de la comida, queríamos más que una cocina: queríamos un lugar para compartir. Así nació este espacio, hecho por nosotros, donde puedes preparar lo que se te antoje, sentarte a comer con gente que no conocías hace una hora y acabar compartiendo risas, recetas o hasta planes de viaje. Aquí, cocinar es solo la excusa.`,
         image: {
-            jpg: installationsOne,
-            webp: installationsOneWeb,
+            jpg: kitchen,
+            webp: kitchenWebp,
         }
     },
     {

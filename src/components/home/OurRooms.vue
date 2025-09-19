@@ -1,10 +1,28 @@
 <script setup>
-import imageOne from '@/assets/image_1.JPG'
-import imageOneWebp from '@/assets/image_1.webp'
-import imageTwo from '@/assets/image_2.JPG'
-import imageTwoWebp from '@/assets/image_2.webp'
-import imageThree from '@/assets/image_3.jpg'
-import imageThreeWebp from '@/assets/image_3.webp'
+import Firstroom from "@/assets/first1.jpg";
+import FirstroomWebp from "@/assets/first1.webp";
+import Secondroom from "@/assets/first2.jpg";
+import SecondroomWebp from "@/assets/first2.webp";
+import Thirdroom from "@/assets/first3.jpg";
+import ThirdroomWebp from "@/assets/first3.webp";
+import Bethroom1 from "@/assets/seccond1.jpg";
+import Bethroom1Webp from "@/assets/seccond1.webp";
+import Bethroom2 from "@/assets/seccond2.jpg";
+import Bethroom2Webp from "@/assets/seccond2.webp";
+import Bethroom3 from "@/assets/seccond3.jpg";
+import Bethroom3Webp from "@/assets/seccond3.webp";
+import Bethroom4 from "@/assets/seccond4.jpg";
+import Bethroom4Webp from "@/assets/seccond4.webp";
+import Famroom1 from "@/assets/fam1.jpg";
+import Famroom1Webp from "@/assets/fam1.webp";
+import Famroom2 from "@/assets/fam2.jpg";
+import Famroom2Webp from "@/assets/fam2.webp";
+import Famroom3 from "@/assets/fam3.jpg";
+import Famroom3Webp from "@/assets/fam3.webp";
+import Famroom4 from "@/assets/fam4.jpg";   
+import Famroom4Webp from "@/assets/fam4.webp";
+
+
 import WhaLink from '@/components/utils/WhaLink.vue';
 import ModalGalery from '../utils/ModalGalery.vue';
 import { ref } from 'vue';
@@ -19,9 +37,21 @@ const rooms = [
         link: '#',
         image: [
             {
-                'jpg': imageThree,
-                'webp': imageThreeWebp,
+                'jpg': Famroom1,
+                'webp': Famroom1Webp,
             },
+            {
+                'jpg': Famroom2,
+                'webp': Famroom2Webp,
+            },
+            {
+                'jpg': Famroom3,
+                'webp': Famroom3Webp,
+            },
+            {
+                'jpg': Famroom4,
+                'webp': Famroom4Webp,
+            }
         ]
     },
     {
@@ -31,9 +61,20 @@ const rooms = [
         link: '#',
         image: [
             {
-                'jpg': imageTwo,
-                'webp': imageTwoWebp,
-
+                'jpg': Bethroom1,
+                'webp': Bethroom1Webp,
+            },
+            {
+                'jpg': Bethroom2,
+                'webp': Bethroom2Webp,
+            },
+            {
+                'jpg': Bethroom3,
+                'webp': Bethroom3Webp,
+            },
+            {
+                'jpg': Bethroom4,
+                'webp': Bethroom4Webp,
             }
         ]
     },
@@ -44,9 +85,17 @@ const rooms = [
         link: '#',
         image: [
             {
-                'jpg': imageOne,
-                'webp': imageOneWebp,
+                'jpg': Firstroom,
+                'webp': FirstroomWebp,
             },
+            {
+                'jpg': Secondroom,
+                'webp': SecondroomWebp,
+            },
+            {
+                'jpg': Thirdroom,
+                'webp': ThirdroomWebp,
+            }
         ]
     },
 ]
