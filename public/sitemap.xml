@@ -1,8 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" 
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
-    <loc>https://canbalam.com.mx//</loc>
+    <loc>https://canbalam.com.mx/</loc>
+    <lastmod>2024-12-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://canbalam.com.mx/MainBanner.webp</image:loc>
+      <image:title>Can Balam Hotel Puerto Escondido</image:title>
+      <image:caption>Vista principal del hotel Can Balam en Puerto Escondido, Oaxaca</image:caption>
+    </image:image>
   </url>
 </urlset>

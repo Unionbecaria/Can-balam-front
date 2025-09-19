@@ -1,4 +1,10 @@
 User-agent: *
-Disallow:
+Disallow: /admin/
+Disallow: /_*
+Allow: /
 
-Sitemap: https:https://canbalam.com.mx//sitemap.xml
+# Sitemap
+Sitemap: https://canbalam.com.mx/sitemap.xml
+
+# Crawl delay
+Crawl-delay: 1

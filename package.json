@@ -6,7 +6,9 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "build:analyze": "vite build --mode analyze",
+    "seo-check": "echo 'SEO files check:' && ls -la public/sitemap.xml public/robots.txt public/_headers public/_redirects"
   },
   "dependencies": {
     "dayjs": "^1.11.13",
